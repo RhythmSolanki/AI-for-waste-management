@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for Waste Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./Assests/logo.png" alt="">
+            <span id="sp1">Eco</span> <span id="sp2">India</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#1">Home</a></li>
+            <li><a href="#2">Crisis</a></li>
+            <li><a href="#3">Solutions</a></li>
+            <li><a href="#4">SBM</a></li>
+            <li><a href="#5">Case Studies</a></li>
+            <li><a href="#6">Roadmap</a></li>
+        </ul>
+    </nav>
+    <section class="home" id="1">
+        <div class="s1">
+            <div id="main1">
+                <img src="./Assests/1.png" alt="main-img">
+            </div>
+            <div id="main2">
+                <p>Powered by AI for Sustainable India</p>
+                <h1>Transforming India’s Waste Architecture with Artificial Intelligence</h1>
+                <h3>India generates over 1.5 lakh tonnes of municipal solid waste daily. Bridging the gap between manual
+                    disposal and zero-landfill goals, AI brings computer vision, predictive analytics, and automated
+                    sorting to the frontlines of urban cleanliness.</h3>
+                <button id="btn1">Explore AI Solutions →</button>
+                <button id="btn2">Read Case Studies</button>
+            </div>
+        </div>
+        <div id="stats">
+            <div id="st1">
+                <p>1.5L+ MT <br>
+                    Daily Municipal Solid Waste (MSW) in India</p>
+            </div>
+            <div id="st2">
+                <p>~70%
+                    Waste processed nationally (rising via SBM 2.0)</p>
+            </div>
+            <div id="st3">
+                <p>95%+
+                    Sorting accuracy achieved by AI optical sorting</p>
+            </div>
+            <div id="st4">
+                <p>3,000+
+                    dumpsites targeted for complete remediation</p>
+            </div>
+        </div>
+        <h3 id="h3">Core Pillars</h3>
+        <div id="pillars">
+            <div class="pillar p-one">
+                <img src="./Assests/2.png" alt="p1">
+                <h4>Smart Sorting at Source & MRFs</h4>
+                <p>Robotic pickers and hyperspectral cameras that separate PET, HDPE, mixed paper, and organics at
+                    speeds impossible for manual labour.</p>
+            </div>
+            <div class="pillar p-two">
+                <img src="./Assests/3.png" alt="p2">
+                <h4>Dynamic Logistics & Route Optimization</h4>
+                <p>IoT and AI algorithms that route collection tippers based on real-time bin filling levels, cutting
+                    municipal fuel burn by up to 28%.</p>
+            </div>
+            <div class="pillar p-three">
+                <img src="./Assests/4.png" alt="p3">
+                <h4>Satellite & Drone Landfill Monitoring</h4>
+                <p>Automated computer vision tracking landfill volume expansion, detecting methane plumes, and
+                    preventing spontaneous dumpsite fires.</p>
+            </div>
+        </div>
+        <div class="quote">
+            <img src="./Assests/SBM.png" alt="">
+            <div class="sbm">
+                <h2>Swachh Bharat Mission Alignment</h2>
+                <p>"Technology must be the prime enabler in converting 'Kachra to Kanchan' (Waste to Wealth). AI
+                    provides the precision that human scale alone cannot achieve."</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="The Crisis & Need" id="2">
+        <div class="s2h1">
+            <p>The Urban Reality</p>
+            <h2>India’s Municipal Waste Dilemma</h2>
+            <h4>Rapid urbanization and changing consumption patterns have created a waste volume that traditional,
+                manual supply chains cannot sustain.</h4>
+            <h3>The Current Bottlenecks in Indian Municipalities</h3>
+        </div>
+        <div class="cards-s2">
+            <div id="card1">
+                <img src="./Assests/5.png" alt="c1-s1-img1">
+                <h6>Incomplete Segregation at Source:</h6>
+                <p>Despite dual-bin mandates (Green/Blue), mixed waste remains common in Indian tier-1 and tier-2
+                    cities, contaminating dry recyclable items with wet biodegradable food waste.</p>
+            </div>
+            <div id="card2">
+                <img src="./Assests/6.png" alt="c1-s1-img2">
+                <h6>High Occupational Risk for Safai Karamcharis:</h6>
+                <p>Millions of sanitation workers still handle hazardous, unsegregated trash manually, facing severe
+                    health risks, chemical exposure, and physical injuries.</p>
+            </div>
+            <div id="card3">
+                <img src="./Assests/7.png" alt="c1-s1-img3">
+                <h6>Legacy Landfills (Ghazipur, Deonar, Pirana):</h6>
+                <p>Decades of dumping have created multi-story trash mountains prone to recurring toxic fires,
+                    groundwater leachate, and heavy methane emissions.</p>
+            </div>
+            <div id="card4">
+                <img src="./Assests/8.png" alt="c1-s1-img4">
+                <h6>Inefficient Fleet Management:</h6>
+                <p>Fixed-route garbage trucks often pick up half-empty bins while overflowing dumpsters in crowded
+                    colonies remain unserviced for days.</p>
+            </div>
+        </div>
+        <br>
+        <h3 class="s2h2">Data Breakdown & Impact</h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Waste Category</th>
+                        <th>% of Total Indian MSW</th>
+                        <th>Major Challenge</th>
+                        <th>AI Intervention</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Biodegradable / Wet</td>
+                        <td>50% &ndash; 55%</td>
+                        <td>Moisture degrades recyclables, produces methane</td>
+                        <td>Smart digester monitoring, automated segregation</td>
+                    </tr>
+                    <tr>
+                        <td>Dry / Recyclables</td>
+                        <td>20% &ndash; 25%</td>
+                        <td>Low pure-stream capture rate</td>
+                        <td>Robotic optical sorting, polymer tagging</td>
+                    </tr>
+                    <tr>
+                        <td>Plastics &amp; Multi-layered</td>
+                        <td>10% &ndash; 12%</td>
+                        <td>Hard to segregate by human eye</td>
+                        <td>Deep-learning camera recognition (EPR tracking)</td>
+                    </tr>
+                    <tr>
+                        <td>Inert &amp; Construction</td>
+                        <td>10% &ndash; 15%</td>
+                        <td>Clogs drains and fills dumpsites quickly</td>
+                        <td>Drone volume calculation, automated tracking</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </section>
+    <section class="AI Solutions" id="3">
+        <div class="s3h1">
+            <p>Technology Stack</p>
+            <h2>How Artificial Intelligence Modernizes Waste Workflows </h2>
+            <h4>Combining Edge Computing, Convolutional Neural Networks (CNNs), and IoT to turn raw waste into traceable
+                raw material.</h4>
+            <h3>The Four Technological Pillars</h3>
+        </div>
+        <div class="cards-s3">
+            <div class="card-s3">
+                <img src="./Assests/9.png" alt="card1-s3-img">
+                <h5>Module 1: AI-Powered Computer Vision Sorting</h5>
+                <h6>How it works:</h6>
+                <p> High-speed camera arrays capture items on conveyor belts at Material Recovery Facilities (MRFs).
+                    Convolutional neural networks identify material, brand, polymer type (e.g., PET vs. HDPE), and
+                    contamination level in under 20 milliseconds.
+                </p>
+                <h6>Output:</h6>
+                <p>
+                    High-pressure pneumatic jets or delta robotic arms pick and sort items at up to 80 picks per minute
+                    with over 95% purity.</p>
+            </div>
+            <div class="card-s3">
+                <img src="./Assests/10.jpg" alt="card2-s3-img">
+                <h5>Module 2: Smart Ultrasonic Bins & Route Optimization</h5>
+                <h6>How it works:</h6>
+                <p> Micro-lidar and ultrasonic fill-level sensors installed inside community dhalaos (local collection
+                    bins) transmit fill percentages to a central municipal dashboard via 4G/NB-IoT.</p>
+                <h6>Output:</h6>
+                <p>
+                    Genetic pathfinding algorithms calculate daily dynamic routes for garbage compactors, minimizing
+                    diesel consumption and eliminating bin overflow.</p>
+            </div>
+            <div class="card-s3">
+                <img src="./Assests/11.jpg" alt="card3-s3-img">
+                <h5>Module 3: Drone-Based Landfill & Dump Mapping</h5>
+                <h6>How it works:</h6>
+                <p> Autonomous drones capture photogrammetric data over landfills. AI vision models run 3D volumetric
+                    calculations to measure reclamation progress under bio-mining projects.</p>
+                <h6>Output:</h6>
+                <p>
+                    Accurate volume verification of cleared legacy waste, replacing slow and error-prone physical
+                    surveys.</p>
+            </div>
+            <div class="card-s3">
+                <img src="./Assests/12.jpg" alt="card4-s3-img">
+                <h5>Module 4: Automated EPR (Extended Producer Responsibility) Auditing</h5>
+                <h6>How it works:</h6>
+                <p> AI scans barcode remnants and brand packaging logos on plastic packaging entering recycling centres.
+                </p>
+                <h6>Output:</h6>
+                <p>Creates transparent, tamper-proof audit trails for FMCG brands to verify plastic recycling credits
+                    under Indian CPCB mandates.</p>
+            </div>
+        </div>
+    </section>
+    <section class="SBM 2.0 & Urban Policy" id="4">
+        <div class="s4h1">
+            <p>National Vision</p>
+            <h2>The Catalyst for Swachh Bharat Mission Urban 2.0</h2>
+            <h4>SBM 2.0 aims for completely garbage-free cities, 100% scientific processing, and remediation of all
+                legacy dumpsites. Here is how AI accelerates these national targets.</h4>
+        </div>
+        <div class="main2-s4">
+            <img src="./Assests/sbm_banner.jpg" alt="SBM">
+        </div>
+        <h3>Mapping AI to SBM 2.0 Goals</h3>
+        <div class="cards-s4">
+            <div class="card-s4">
+                <h5>Target 1: 100% Scientific Waste Processing</h5>
+                <h6>Policy Goal:</h6>
+                <p> Zero unprocessed solid waste going to open dumping yards.</p>
+                <h6>AI Role:</h6>
+                <p> Upgrades municipal MRFs with automated optical sorters, ensuring organic waste goes directly to
+                    compost/biogas (CBG) units while plastics enter the circular supply chain.</p>
+            </div>
+            <div class="card-s4">
+                <h5>Target 2: Bioremediation of 1600+ Legacy Dumpsites</h5>
+                <h6>Policy Goal:</h6>
+                <p> Free up hundreds of acres of prime municipal land under bio-mining mandates.</p>
+                <h6>AI Role:</h6>
+                <p> Drone imagery combined with AI depth maps tracks trommel screen sorting speed, monitors soil
+                    reclamation metrics, and calculates land recovery in real time.</p>
+            </div>
+            <div class="card-s4">
+                <h5>Target 3: Formalizing the Informal Sector</h5>
+                <h6>Policy Goal:</h6>
+                <p> Dignified livelihood for waste pickers (Kabaadiwalas & Safai Mitras).</p>
+                <h6>AI Role:</h6>
+                <p> Shifting workers from toxic manual sorting lines to roles as technicians, drone pilots, and
+                    dashboard supervisors in tech-enabled MRF facilities.</p>
+            </div>
+            <div class="card-s4">
+                <h5>Target 4: Swachh Survekshan Ranking Automation</h5>
+                <h6>Policy Goal:</h6>
+                <p> Fair, data-driven cleanliness rankings across Indian cities.</p>
+                <h6>AI Role:</h6>
+                <p> Computer vision cameras mounted on public transport (city buses) detect street littering and
+                    uncleaned dumps spots, feeding objective cleanliness scores directly to municipal command centers
+                    (ICCCs).</p>
+            </div>
+        </div>
+        <div class="card2-s4">
+            <img src="./Assests/SBM.png" alt="card-s4-img">
+            <p>"SBM 2.0 is not just about cleaning. Its about Transforming India by integrating Artificial Intelligence,
+                we move closer to the vision of 'Kachra Mukt Bharat' (Garbage free India) where no waste is wasted."</p>
+        </div>
+    </section>
+    <section class="Case Studies" id="5">
+        <div class="s5h1">
+            <p>Ground Realities</p>
+            <h2>Real-World Deployments & Indian Case Studies</h2>
+            <h4>Proven implementations of technology, robotics, and computer vision across Indian cities.</h4>
+        </div>
+        <div class="cases">
+            <div class="cs1">
+                <img src="./Assests/13.jpg" alt="cs1-img">
+                <h5>Case Study 1: The Indore Cleanliness Miracle (Dynamic Routing & ICCC)</h5>
+                <h6>Location:</h6>
+                <p> Indore, Madhya Pradesh (Consistently India's Cleanest City)</p>
+                <h6>The Challenge:</h6>
+                <p> Collecting waste daily from over 500,000 households without service lapses or missing unsegregated
+                    bins.</p>
+                <h6>The AI Deployment:</h6>
+                <ul>
+                    <li>Integrated Command and Control Centre (ICCC) connected to GPS-enabled collection tippers and
+                        RFID-tagged household bins.</li>
+                    <li>AI algorithms flag route deviations, delayed collections, and fuel anomalies in real-time.</li>
+                </ul>
+                <h6>Results:</h6>
+                <ul>
+                    <li>100% door-to-door segregated collection maintained across 85 wards.</li>
+                    <li>Significant reduction in municipal fleet fuel expenditure.</li>
+                    <li>City declared the undisputed benchmark for Swachh Survekshan.</li>
+                </ul>
+
+            </div>
+            <div class="cs2">
+                <img src="./Assests/14.jpg" alt="cs2-img">
+                <h5>Case Study 2: Robotic Sorting at Indian Material Recovery Facilities (Ishitva Robotics)</h5>
+                <h6>Location:</h6>
+                <p> Ahmedabad & Bangalore</p>
+                <h6>The Challenge:</h6>
+                <p> Low sorting efficiency of mixed plastics, high human health hazards, and contaminated waste bales
+                    rejected by recyclers.</p>
+                <h6>The AI Deployment:</h6>
+                <ul>
+                    <li>Proprietary AI vision system (Sanjivani) coupled with high-speed air-sorters (Netra).</li>
+                    <li>Scans mixed dry waste conveyors to pick polypropylene (PP), polyethylene (HDPE), and PET bottles
+                        at sub-second speeds.</li>
+                </ul>
+                <h6>Results:</h6>
+                <ul>
+                    <li>Sorting speed increased to over 1.5 to 2 tonnes/hour per machine.</li>
+                    <li>Reached 95%+ purity rate on recovered recyclable plastic bales.</li>
+                    <li>Kept high-value plastics away from landfills and channelled them into circular recycling
+                        streams.</li>
+                </ul>
+
+            </div>
+            <div class="cs3">
+                <img src="./Assests/4.png" alt="cs3-img">
+                <h5>Case Study 3: Drone-Based Bio-mining Tracking (Legacy Landfills)</h5>
+                <h6>Location:</h6>
+                <p> Delhi-NCR & Western India</p>
+                <h6>The Challenge:</h6>
+                <p> Verifying contractor claims and progress in bio-mining legacy waste mounds running into millions of
+                    cubic meters.</p>
+                <h6>The AI Deployment:</h6>
+                <ul>
+                    <li>Regular autonomous drone flights generating high-resolution digital elevation models (DEMs).
+                    </li>
+                    <li> AI algorithms continuously compare monthly 3D volumetric surfaces to verify true tons cleared.
+                    </li>
+                </ul>
+                <h6>Results:</h6>
+                <ul>
+                    <li>Eliminated manual estimation errors and billing fraud.</li>
+                    <li>Accelerated legacy waste removal timelines by ~20% through precise resource dispatch.</li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+    <section class="Future Roadmap" id="6">
+        <div class="s6h1">
+            <p>The Path Ahead</p>
+            <h2>The Roadmap to Zero-Waste Smart Cities</h2>
+            <h4>Building a scalable, technology-driven circular economy for India by 2030 and beyond.</h4>
+            <h3>Next-Generation Solutions (Under Development)</h3>
+        </div>
+        <div class="cards-s6">
+            <div class="card1-s6">
+                <img src="./Assests/3.png" alt="Reverse Vending Machine">
+                <h5>1. Reverse Vending Machines (RVMs) with UPI Cashback:</h5>
+                <p>Smart kiosks across railway stations and metro stops that recognize crushed bottles using computer
+                    vision and issue instant UPI micro-incentives to citizens.</p>
+            </div>
+            <div class="card1-s6">
+                <img src="./Assests/8.png" alt="AI Dashcam Truck">
+                <h5>2. Edge-AI Dashcams on Municipal Trucks:</h5>
+                <p>Moving sanitation vans scan streets for illegal roadside debris, auto-geotag the location, and issue
+                    automated collection work tickets.</p>
+            </div>
+            <div class="card1-s6">
+                <img src="./Assests/9.png" alt="Citizen App">
+                <h5>3. Citizen Verification via Mobile Apps:</h5>
+                <p>AI camera features in municipal apps that verify if household trash is correctly segregated before
+                    collection, awarding green credits or utility rebate points.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h3>Student / Developer Takeaway & Project Scope</h3>
+        <br>
+        <div class="lastcard">
+            <div class="lc">
+                <h5>For Open Source Contributors:</h5>
+                <p>Developing localized waste dataset libraries (annotating typical Indian waste like coconut shells,
+                    gutkha pouches, and clay kulhads for YOLO vision models).</p>
+            </div>
+            <div class="lc">
+                <h5>For Municipal Planners:</h5>
+                <p>Integrating open-source routing APIs into Ward-level sanitation vehicle planning.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-inner">
+
+            <!-- Brand column -->
+            <div class="footer-col footer-brand">
+                <div class="footer-logo">
+                    <img src="./Assests/logo.png" alt="EcoIndia logo">
+                    <span class="fl-eco">Eco</span><span class="fl-india">India</span>
+                </div>
+                <p class="footer-tagline">Harnessing Artificial Intelligence to build a cleaner, greener, and waste-free
+                    India one smart city at a time.</p>
+
+            </div>
+
+            <!-- Quick Links column -->
+            <div class="footer-col">
+                <h6 class="footer-heading">Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="#1">Home</a></li>
+                    <li><a href="#2">The Crisis &amp; Need</a></li>
+                    <li><a href="#3">AI Solutions</a></li>
+                    <li><a href="#4">SBM 2.0 Policy</a></li>
+                    <li><a href="#5">Case Studies</a></li>
+                    <li><a href="#6">Future Roadmap</a></li>
+                </ul>
+            </div>
+
+            <!-- Key Stats column -->
+            <div class="footer-col">
+                <h6 class="footer-heading">Key Statistics</h6>
+                <ul class="footer-stats">
+                    <li><span class="stat-num">1.5L+ MT</span><span class="stat-desc">Daily MSW generated in
+                            India</span></li>
+                    <li><span class="stat-num">95%+</span><span class="stat-desc">AI optical sorting accuracy</span>
+                    </li>
+                    <li><span class="stat-num">3,000+</span><span class="stat-desc">Dumpsites targeted for
+                            remediation</span></li>
+                    <li><span class="stat-num">28%</span><span class="stat-desc">Fuel savings via smart routing</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Contact / Mission column -->
+            <div class="footer-col">
+                <h6 class="footer-heading">Our Mission</h6>
+                <p class="footer-mission">Aligned with India's Swachh Bharat Mission 2.0, we document and advocate for
+                    technology-driven waste management across every urban ward.</p>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="footer-bottom">
+            <p>© 2026 EcoIndia &mdash; AI for Waste Management Initiative. All rights reserved by Rhythm And Dezyne
+                Ecole College Ajmer.</p>
+            <p class="footer-sub">A Web Programming Project | Made by Rhythm Solanki BCA semester-3
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
